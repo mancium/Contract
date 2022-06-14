@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at Etherscan.io on 2022-06-13
+ *Submitted for verification at Etherscan.io on 2022-06-14
 */
 
 // File: @openzeppelin/contracts@4.6.0/utils/math/SafeMath.sol
@@ -931,7 +931,7 @@ contract TokenVesting is Ownable, ReentrancyGuard{
      * @dev Creates a vesting contract.
      */
     constructor() {
-        _token = IERC20(0xE58a9243e5708ec0EE01deEdc47fD76d1b608797);
+        _token = IERC20(0xE0c05ec44775e4AD62CDC2eEcdF337aA7A143363);
     }
 
     receive() external payable {}
